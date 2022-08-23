@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .card{
+           
+            background-color: #FFC7C7;
+            width: 350px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            align-items: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 16px rgba(0,0,0,0.1),
+    0 16px 32px rgba(0,0,0,0.1), 
+    0 32px 64px rgba(0,0,0,0.1);
+        }
+
+        #gspo{
+            text-align: center;
+            color: #CA4E79;
+            font-size: 40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           margin-top: 20px;
+           margin-left: -20px;
+           margin-right: -20px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 16px rgba(0,0,0,0.1),
+    0 16px 32px rgba(0,0,0,0.1), 
+    0 32px 64px rgba(0,0,0,0.1);
+            background-color: #E8A0BF;
+
+        }
+        .inputi{
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+            font-size: 20px;
+            width: 450px;
+            align-items: center;
+            background-color: #FFE2E2;
+            margin-left: 450px;
+        
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 16px rgba(0,0,0,0.1),
+    0 16px 32px rgba(0,0,0,0.1), 
+    0 32px 64px rgba(0,0,0,0.1);
+        }
+        .remove-button{
+            background-color: #F65A83;
+            border-width: 0px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 16px rgba(0,0,0,0.1),
+    0 16px 32px rgba(0,0,0,0.1), 
+    0 32px 64px rgba(0,0,0,0.1);
+    font-size: 20px;
+    color: aliceblue;
+    padding: 7px;
+        }
+        .remobutton{
+            background-color: #F65A83;
+            border-width: 0px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 16px rgba(0,0,0,0.1),
+    0 16px 32px rgba(0,0,0,0.1), 
+    0 32px 64px rgba(0,0,0,0.1);
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+        }
+        
+
+    </style>
+</head>
+<body style="background-color: #BBDED6; font-family:Georgia, 'Times New Roman', Times, serif; color: #CA4E79; margin: 20px;">
+    <nav style="background-color: #CA4E79; padding: 15px; display: flex; justify-content: space-around; margin: -20px; color: aliceblue; font-size: 17px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;">
+            <li style="display: inline;  ">Home</li>
+            <li style="display: inline;">Food</li>
+            <li style="display: inline; ">About</li>
+        </nav>
+    <h1 id="gspo" >Recipies.com</h1>
+    
+
+    <div class="content" id="contenti">
+
+    <div class="card">
+        <h2>Tea</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="120px" alt="">
+        <p><strong>Ingredients:</strong> Tealeaves, milk,sugar, ginger</p>
+        <button class="remove-button">Remove</button>
+    </div>
+    <div class="card">
+        <h2>Coffee</h2>
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" width="200px" height="120px" alt="">
+        <p><strong>Ingredients:</strong> Coffee beans, milk, sugar, cocoa </p>
+        <button class="remove-button">Remove</button>
+    </div>
+    <!-- <div class="card">
+        <h2>Tea</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="100px" alt="">
+        <p>Ingredients: Tealeaves,milk,sugar,ginger</p>
+        <button class="remove-button">remove</button>
+    </div>
+    <div class="card">
+        <h2>Tea</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="100px" alt="">
+        <p>Ingredients: Tealeaves,milk,sugar,ginger</p>
+        <button class="remove-button">remove</button>
+    </div><div class="card">
+        <h2>Tea</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="100px" alt="">
+        <p>Ingredients: Tealeaves,milk,sugar,ginger</p>
+        <button class="remove-button">remove</button>
+    </div>
+    <div class="card">
+        <h2>Tea</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="100px" alt="">
+        <p>Ingredients: Tealeaves,milk,sugar,ginger</p>
+        <button class="remove-button">remove</button>
+    </div>
+    -->
+
+</div>
+<div class="inputi">
+    <h2>ADD A RECIPIE</h2>
+<label >Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="name"><br>
+<label for="">Image link&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="link"> <br>
+<label for="">Ingredients&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="ing"> <br>
+<button onclick="additem()" class="remobutton">Submit</button>
+</div>
+</body>
+
+
+
+<script>
+
+    function removeitem(event){
+        event.target.parentElement.remove()
+    }
+    let removebuttons= document.getElementsByClassName('remove-button')
+    for(let i=0;i<removebuttons.length;i++){
+        removebuttons[i].addEventListener("click",removeitem)
+    }
+    function additem(){
+         let name=document.getElementById('name').value
+         let link=document.getElementById('link').value
+         let ingredients=document.getElementById('ing').value
+
+        let htmltoadd=`
+        <div id="${name}" class="card">
+        <h2>${name}</h2>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F22%2Fdifferent-types-of-tea-FT-BLOG0621.jpg&q=60" width="200px" height="100px" alt="">
+        <p>Ingredients: ${ ingredients}</p>
+        <button class="remove-button">remove</button>    
+         </div>`
+    let newelement=document.createElement('div')
+    newelement.innerHTML=htmltoadd
+    document.getElementById('contenti').appendChild(newelement)
+    for(let i=0;i<removebuttons.length;i++){
+        removebuttons[i].addEventListener("click",removeitem)
+    }
+    }
+</script>
+
+</html>

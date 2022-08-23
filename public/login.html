@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body style="background-color: #FFDEB4;">
+    <nav style="background-color: #CA4E79; padding: 15px; display: flex; justify-content: space-around; margin: 0px; color: aliceblue; font-size: 17px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;">
+            <li style="display: inline;  ">Home</li>
+            <li style="display: inline;">Food</li>
+            <li style="display: inline; ">About</li>
+        </nav>
+    <h1 id="gspo" ><strong>Recipies.com</strong></h1>
+
+    <div class="container" >
+        <div class="row" >
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 main" style="background-color: white;">
+                <form action="/login" method="POST" id="reg-form">
+                    <h2 style="padding-left: 200px; font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:#F65A83;"><strong>LOGIN </strong></h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <br>
+                    
+                    <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                    <br>
+                    <input type="submit" value="LET'S GO" id="submit" style="background-color: #F65A83; margin-top: 30px;" />
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        const form = document.getElementById('reg-form')
+			form.addEventListener('submit', registerUser)
+    async function registerUser() {
+        let request=await fetch("/login",{method: "POST"});
+        let result = await request.json()
+
+        if (result.status === 'error') {
+            // everythign went fine
+            alert(result.error)
+        } 
+    }
+</script> -->
+</body>
+
+</html>

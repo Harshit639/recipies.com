@@ -1,0 +1,124 @@
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    box-shadow: 5px 5px 7px 5px #888888;
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    background-color: #767474;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+   
+    background-color: #FFC7C7;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+0 2px 4px rgba(0,0,0,0.1), 
+0 4px 8px rgba(0,0,0,0.1), 
+0 8px 16px rgba(0,0,0,0.1),
+0 16px 32px rgba(0,0,0,0.1), 
+0 32px 64px rgba(0,0,0,0.1);
+}
+
+#gspo{
+    text-align: center;
+    color: #CA4E79;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 0px;
+   margin-left: -20px;
+   margin-right: -20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+0 2px 4px rgba(0,0,0,0.1), 
+0 4px 8px rgba(0,0,0,0.1), 
+0 8px 16px rgba(0,0,0,0.1),
+0 16px 32px rgba(0,0,0,0.1), 
+0 32px 64px rgba(0,0,0,0.1);
+    background-color: #E8A0BF;
+
+}
+.inputi{
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 450px;
+    align-items: center;
+    background-color: #FFE2E2;
+    margin-left: 450px;
+
+box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+0 2px 4px rgba(0,0,0,0.1), 
+0 4px 8px rgba(0,0,0,0.1), 
+0 8px 16px rgba(0,0,0,0.1),
+0 16px 32px rgba(0,0,0,0.1), 
+0 32px 64px rgba(0,0,0,0.1);
+}
+.remove-button{
+    background-color: #F65A83;
+    border-width: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+0 2px 4px rgba(0,0,0,0.1), 
+0 4px 8px rgba(0,0,0,0.1), 
+0 8px 16px rgba(0,0,0,0.1),
+0 16px 32px rgba(0,0,0,0.1), 
+0 32px 64px rgba(0,0,0,0.1);
+font-size: 20px;
+color: aliceblue;
+padding: 7px;
+}
+.remobutton{
+    background-color: #F65A83;
+    border-width: 0px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+0 2px 4px rgba(0,0,0,0.1), 
+0 4px 8px rgba(0,0,0,0.1), 
+0 8px 16px rgba(0,0,0,0.1),
+0 16px 32px rgba(0,0,0,0.1), 
+0 32px 64px rgba(0,0,0,0.1);
+font-size: 20px;
+color: aliceblue;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 120px;
+}
+
+
